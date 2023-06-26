@@ -1,0 +1,36 @@
+.Navbar {
+  padding: 20px 10px;
+  color: #fff;
+  background: linear-gradient(90deg, #0b3e27, #197149);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0px 20px;
+  cursor: pointer;
+}
+
+.center {
+  width: 50px;
+}
+
+.logo {
+  width: 100%;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0px 20px;
+}

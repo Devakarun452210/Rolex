@@ -1,0 +1,18 @@
+.Video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+@media (max-width: 1023px) {
+  .Video {
+    margin: 10px auto;
+  }
+}
+
+.Video video {
+  width: 100%;
+  border-radius: 10px;
+}

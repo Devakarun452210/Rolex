@@ -1,0 +1,49 @@
+.Geography {
+  margin: 50px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.next {
+  font-size: 18px;
+  font-weight: 300;
+  color: #197149;
+}
+
+.heading {
+  font-size: 10px;
+  font-weight: 700;
+  color: #197149;
+}
+
+.btn {
+  color: #fff;
+  width: 100px;
+  align-self: center;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #0b3e27, #197149);
+  cursor: pointer;
+}
+
+@media (max-width: 1023px) {
+  .Geography {
+    margin: 10px 0px;
+  }
+  .text {
+    gap: 10px;
+  }
+
+  .btn {
+    width: 300px;
+  }
+}
